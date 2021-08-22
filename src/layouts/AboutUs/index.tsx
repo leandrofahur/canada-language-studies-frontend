@@ -5,7 +5,9 @@ import React from 'react';
 export const AboutUs: React.FC = () => {
     return (
         <>
-            <h1>About Us Section</h1>
+            <>
+                <h1>About Us Section</h1>
+            </>
         </>
     );
 };

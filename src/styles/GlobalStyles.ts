@@ -4,7 +4,7 @@ export default createGlobalStyle`
     :root {
         --black: #000000;
         --white: #ffffff;
-        --primary: #DE5753;
+        --primary: #BA404A;
         --secondary: #EBA417;
         --dark-gray: #343A40;
     }
@@ -24,4 +24,9 @@ export default createGlobalStyle`
         margin: 0 auto;
         font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     }    
+
+    a { 
+        text-decoration: none;
+        color: var(--white);
+    }
 `;

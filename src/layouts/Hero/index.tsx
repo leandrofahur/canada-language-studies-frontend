@@ -1,11 +1,17 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { Logo } from '../../components/Logo';
+
+import { HeroContainer, DownArrowContainer } from './styles';
 
 export const Hero: React.FC = () => {
     return (
         <>
-            <h1>Hero Section</h1>
+            <HeroContainer>
+                {/* <Navbar></Navbar> */}
+                <Logo inline={false} />
+                {/* <DownArrowContainer></DownArrowContainer> */}
+            </HeroContainer>
         </>
     );
 };
